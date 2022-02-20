@@ -105,7 +105,7 @@ const Login = () => {
                         <Row className={cx(styles.rowSalesforce)}>
                             <Col>
                                 <li className={styles.navItem}>
-                                    <a className={`${styles.navLink} ${styles.navTextWhite}`} href="https://treinamentos-frontend-pedro.herokuapp.com/">&copy; 2022 https://treinamentos-frontend-pedro.herokuapp.com/</a>
+                                    <a className={`${styles.navLink} ${styles.navTextWhite}`} href="https://frontend-official-training-sys.herokuapp.com/">&copy; 2022 https://frontend-official-training-sys.herokuapp.com/login</a>
                                 </li>
                             </Col>
                         </Row>
