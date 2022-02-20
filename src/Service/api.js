@@ -6,7 +6,7 @@ require('dotenv').config()
 // const UrlSistema = process.env.REACT_APP_API_URL;
 // const UrlSistema = 'https://jsonplaceholder.typicode.com/todos';
 
-const UrlSistema = 'https://backend-sistema-treinamentos.herokuapp.com/api/';
+const UrlSistema = 'https://backend-official-training-syst.herokuapp.com/api/';
 
 //Treinamentos
 export const deleteTreinamento = async (Id) => {

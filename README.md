@@ -32,10 +32,15 @@
 - **https://treinamentos-frontend-pedro.herokuapp.com/**
 
 # Sistema de Treinamento mobile
-![Sistema de Treinamento na tela de um celular](https://github.com/Pedro-costa99/frontend-ursinhos-carinhosos/blob/main/src/assets/screencapture-mobile.png)
+![Sistema de Treinamento na tela de um celular](https://github.com/Pedro-costa99/frontend-official-training-system-/blob/main/src/assets/images/screencapture-mobile.png)
 # Sistema de Treinamento PC
-![Sistema de Treinamento na tela de um computador](https://github.com/Pedro-costa99/frontend-ursinhos-carinhosos/blob/main/src/assets/screencapture-1366x768.png)
+![Sistema de Treinamento na tela de um computador](https://github.com/Pedro-costa99/frontend-official-training-system-/blob/main/src/assets/images/screencapture-1280x800.png)
 
+# Sistema de Treinamento/Login - mobile
+![Sistema de Treinamento na tela de um celular](https://github.com/Pedro-costa99/frontend-official-training-system-/blob/main/src/assets/images/screencapture-login-mobile.png)
+
+# Sistema de Treinamento/Login - PC
+![Sistema de Treinamento na tela de um computador](https://github.com/Pedro-costa99/frontend-official-training-system-/blob/main/src/assets/images/screencapture-login-1280x800.png)
 
 # Getting Started with Create React App
 

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'https://backend-sistema-treinamentos.herokuapp.com/api'
+    baseURL: 'https://backend-official-training-syst.herokuapp.com/api/'
 })
 
 //Login
