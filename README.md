@@ -2,7 +2,10 @@
 # 🌱 Projeto Sistema de Treinamento
 - Este é o Frontend que consome a API do Sistema
 - Projeto Reactj em produção
-  
+
+# 🌱 Acesse o projeto (usuário teste)
+- Usuário: pedro-teste@gmail.com
+- Senha: 12345678
   
 # 🌱 API consumida:
 - https://backend-official-training-syst.herokuapp.com/api/
