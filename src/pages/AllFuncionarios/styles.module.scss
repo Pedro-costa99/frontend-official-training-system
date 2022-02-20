@@ -1,0 +1,221 @@
+.body{
+    background-color: #C5C5C5;
+    overflow-x: hidden;
+
+    
+}
+
+.row{
+    text-align: center;
+    // --bs-gutter-x: 0px;
+ 
+}
+
+#mb2{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    // padding: 40px;
+    // padding-right: 60px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    min-width: 261px;
+    margin-left: 0;
+
+    
+}
+
+.msgSucesso{
+    /* font-size: 2.4rem; */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #008000;
+}
+
+.msgErroFunc{
+    /* font-size: 2.4rem; */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+}
+
+#totalTreinamentos{
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+
+
+.card{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cardTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+.spanNaoha{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.icons{
+    padding: 5px;
+    font-size: 2.0rem;
+    color: red !important;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.containerButtonVerMais{
+    width: 100vw;   
+    display: flex;
+    justify-content: center;   
+    padding: 40px;
+}
+
+.buttonVerMais{
+    padding: 0.9rem 2rem !important;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background-color: blue;
+    font-weight: bold;
+    color: #f4fff4eb;
+    border: 2px solid orange;
+}
+
+
+.buttonVerMais:hover{
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+}
+
+.buttonSemDados{
+    padding: 0.9rem 2rem !important;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background-color: blue;
+    font-weight: bold;
+    color: #f4fff4eb;
+    border: 2px solid orange;
+}
+
+
+.buttonSemDados:hover{
+    background-color: orange;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+}
+
+.containerIcons{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.icons:hover{
+  font-size: 3.0rem;
+}
+
+.mainTop{
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+}
+
+.modalFontSize{
+    font-size: 2.0rem;
+}
+
+.main{
+    min-height: 100vh;
+    // min-height: 627px;
+    width: 100vw;
+    min-width: 261px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;    
+    
+}
+
+.rowMain{
+    display: flex;
+    justify-content: center !important;
+    padding-bottom: 20px;
+    width: 100vw;
+    
+}
+
+.colMain{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.modalTop{
+    font-size: 2.2rem;
+}
+
+.formGroup{
+    font-size: 3rem !important;
+    
+}
+
+.formLabel{
+    font-size: 1.5rem;
+}
+
+
+#buttonAgendarTreinamento{
+    font-size: 2rem !important;
+    background-color: #002A4B !important;
+    border: none !important;
+    padding: 1rem;
+    font-weight: bold;
+   
+}
+
+
+#buttonAgendarTreinamento:hover{
+    
+    color: #002A4B !important;
+    background-color: #ffffff !important;
+    border: 2px solid #002A4B !important;
+}
+
+.modalFooter{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+@media screen and (max-width: 530px) {
+    #mb2{
+        display: flex;
+        justify-content: center;
+    }
+
+    #totalTreinamentos{
+        font-size: 2rem;
+    }
+
+    .card{
+        width: 80vw !important;
+       
+    }
+}

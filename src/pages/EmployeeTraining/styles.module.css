@@ -1,0 +1,45 @@
+.buttonVoltar {
+  font-size: 1.9rem !important;
+  background-color: gray !important;
+  border: none;
+  height: 40px;
+  font-weight: bold !important;
+  border: none !important;
+}
+
+.buttonVoltar:hover {
+  color: gray !important;
+  background-color: #ffffff !important;
+  border: 2px solid gray !important;
+  font-weight: bold;
+}
+
+.container1 {
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+}
+
+.container2 {
+  font-size: 1.8rem;
+}
+
+.mb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  padding: 20px 20px 0px 20px;
+  height: 100px;
+}
+
+.h2 {
+  font-size: 2.8rem;
+}
+
+.spanTrein {
+  text-align: center;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=styles.module.css.map */

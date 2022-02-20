@@ -1,0 +1,14 @@
+.buttonSalvar {
+  font-size: 1.8rem !important;
+  background-color: #002A4B !important;
+  border: 2px solid #002A4B !important;
+  height: 40px;
+  font-weight: bold;
+}
+
+.buttonSalvar:hover {
+  color: #002A4B !important;
+  background-color: #ffffff !important;
+  border: 2px solid #002A4B !important;
+}
+/*# sourceMappingURL=styles.module.css.map */

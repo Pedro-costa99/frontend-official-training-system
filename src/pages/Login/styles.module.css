@@ -1,0 +1,454 @@
+html, .body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFFAFA;
+  min-width: 224px;
+  overflow-x: hidden;
+  line-height: none !important;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.ul {
+  height: 100%;
+  margin-left: 10px;
+}
+
+.navItem {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main {
+  min-height: 627px;
+  width: 100vw;
+  min-width: 260px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 70px;
+}
+
+.sectionImgLogo {
+  width: 100vw;
+  min-height: 140px;
+  float: top;
+}
+
+.sectionForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 430px;
+  min-width: 224px;
+  height: 443.5px;
+  min-height: 443.5px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: inset 0 0 1em #f5f5f5, 0 0 1em gray;
+          box-shadow: inset 0 0 1em #f5f5f5, 0 0 1em gray;
+}
+
+.containerTitleFormTop {
+  height: 25%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.titleFormTop {
+  float: top;
+  height: 35%;
+  width: 90%;
+  font-weight: bold;
+  color: #002A4B;
+  font-size: 2.6rem;
+  font-family: inherit;
+}
+
+.titleFooterForm {
+  height: 30%;
+  font-size: 1.8rem;
+  color: #002A4B;
+  text-decoration: none;
+  text-align: end;
+  line-height: normal;
+}
+
+.titleFooterForm:hover {
+  height: 30%;
+  font-size: 1.8rem;
+  color: #002A4B;
+}
+
+.span {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.linkNewToSystem {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #002A4B;
+  text-align: start;
+  font-size: 1.8rem;
+  line-height: 100% !important;
+}
+
+.linkNewToSystem:hover {
+  cursor: pointer;
+  color: #002A4B;
+}
+
+.span-heroku-is-a {
+  height: 30px;
+  text-decoration: none;
+}
+
+.span-svg {
+  height: 70px;
+}
+
+.svg {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.span-company {
+  height: 30px;
+  text-decoration: none;
+}
+
+.row-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rowSalesforce {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60%;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+.formLabel {
+  color: #002A4B;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.containerFooterForm {
+  height: 15%;
+  background-color: #f5f5f5;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  border-top: 1px solid #ddd;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #664986;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.navLink:link, .navLink:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* span{
+    text-decoration:underline;
+    
+} */
+.icon {
+  font-size: 14px;
+}
+
+.containerForgotPassword {
+  height: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.2rem;
+}
+
+.forgotPassword {
+  color: #ffffff;
+}
+
+.navLink:hover {
+  text-decoration: none !important;
+  color: #664986;
+}
+
+.container-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.containerButtonLogin {
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+
+.basicAddon1 {
+  background-color: #FFFAFA;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+}
+
+.footer {
+  font-size: 1.6rem;
+  width: 100vw;
+  min-width: 224px;
+  height: 188px;
+  min-height: 188px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: bottom;
+  text-align: center;
+  min-width: 260px !important;
+}
+
+.inputLogin:focus {
+  -webkit-box-shadow: inset 0 0 1em #f5f5f5, 0 0 1em #fed305 !important;
+          box-shadow: inset 0 0 1em #f5f5f5, 0 0 1em #fed305 !important;
+}
+
+.inputLogin:hover {
+  -webkit-box-shadow: inset 0 0 1em #f5f5f5, 0 0 1em gray !important;
+          box-shadow: inset 0 0 1em #f5f5f5, 0 0 1em gray !important;
+}
+
+.button {
+  background-color: #002A4B !important;
+  font-size: 2.2rem !important;
+  font-weight: bold !important;
+  height: 45px;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #ffffff !important;
+  color: #002A4B !important;
+  font-weight: bold;
+  border: 2px solid #002A4B;
+}
+
+.imageSistema {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+.forgotYourPassword {
+  margin-left: 10px;
+  color: #002A4B;
+  font-weight: bold;
+}
+
+.navTextWhite {
+  color: #002A4B !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.ul {
+  height: 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.inputLogin {
+  height: 44px;
+  background-color: #fed305 !important;
+  color: #002A4B;
+  font-weight: bold !important;
+  font-size: 18px !important;
+}
+
+.inputLogin::-webkit-input-placeholder {
+  color: #002A4B !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.inputLogin:-ms-input-placeholder {
+  color: #002A4B !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.inputLogin::-ms-input-placeholder {
+  color: #002A4B !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.inputLogin::placeholder {
+  color: #002A4B !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.msgErro {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .sectionForm {
+    width: 300px;
+  }
+  .msgErro {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sectionForm {
+    width: 283.83px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .text-centraliza {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 314px) {
+  .sectionForm {
+    width: 80vw;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

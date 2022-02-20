@@ -1,0 +1,87 @@
+.modalTop {
+  font-size: 1.1rem;
+}
+
+.formLabel {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.formControlEdit {
+  color: #002A4B;
+  height: 35px;
+  font-size: 20px !important;
+}
+
+.msgSucesso {
+  /* font-size: 2.4rem; */
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #008000;
+  font-size: 2rem;
+}
+
+.msgErroTrein {
+  /* font-size: 2.4rem; */
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: red;
+  font-size: 2rem;
+}
+
+.buttonSalvar {
+  font-size: 1.8rem !important;
+  background-color: #002A4B !important;
+  border: 2px solid #002A4B !important;
+  height: 40px;
+  font-weight: bold;
+}
+
+.buttonSalvar:hover {
+  color: #002A4B !important;
+  background-color: #ffffff !important;
+  border: 2px solid #002A4B !important;
+}
+
+.buttonCancelar {
+  font-size: 1.8rem !important;
+  background-color: gray !important;
+  height: 40px;
+  border: 2px solid gray !important;
+  font-weight: bold;
+}
+
+.buttonCancelar:hover {
+  color: gray !important;
+  background-color: #ffffff !important;
+  border: 2px solid gray !important;
+}
+
+.formControlEdit::-webkit-input-placeholder {
+  color: #DCDCDC !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.formControlEdit:-ms-input-placeholder {
+  color: #DCDCDC !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.formControlEdit::-ms-input-placeholder {
+  color: #DCDCDC !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.formControlEdit::placeholder {
+  color: #DCDCDC !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=styles.module.css.map */

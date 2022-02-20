@@ -1,0 +1,22 @@
+.containerInput{
+    display: flex;
+    justify-content: center;
+}
+
+
+.inputSearch{
+
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 341px) {
+
+    .inputSearch{
+        width: 80vw;
+
+    }
+    
+    
+}

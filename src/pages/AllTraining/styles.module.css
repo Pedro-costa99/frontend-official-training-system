@@ -1,0 +1,226 @@
+.body {
+  background-color: #C5C5C5;
+  overflow-x: hidden;
+}
+
+.mb2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100vw;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  min-width: 261px;
+  margin-left: 0;
+}
+
+.msgSucesso {
+  /* font-size: 2.4rem; */
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #008000;
+}
+
+.totalTreinamentos {
+  font-size: 2.6rem;
+}
+
+.card {
+  font-size: 2rem;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.spanNaohaTrein {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* .card:hover{
+    cursor: pointer;
+    
+} */
+.icons {
+  padding: 5px;
+  font-size: 2.0rem;
+  color: red !important;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+.containerButtonVerMais {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+}
+
+.buttonVerMais {
+  padding: 0.9rem 2rem !important;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  background-color: blue;
+  font-weight: bold;
+  color: #f4fff4eb;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+
+.buttonVerMais:hover {
+  background-color: orange;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+}
+
+.buttonSemDados {
+  padding: 0.9rem 2rem !important;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  background-color: blue;
+  font-weight: bold;
+  color: #f4fff4eb;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+
+.buttonSemDados:hover {
+  background-color: orange;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+}
+
+.containerIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.icons:hover {
+  font-size: 3.0rem;
+}
+
+.mainTop {
+  width: 100vw !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modalFontSize {
+  font-size: 2.0rem;
+}
+
+.main {
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 261px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rowMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  padding-bottom: 20px;
+  width: 100vw;
+}
+
+.colMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 20px;
+}
+
+.modalTop {
+  font-size: 2.2rem;
+}
+
+.formGroup {
+  font-size: 3rem !important;
+}
+
+.formLabel {
+  font-size: 1.5rem;
+}
+
+.buttonCriarTreinamento {
+  font-size: 2rem !important;
+  background-color: #002A4B !important;
+  border: none !important;
+  padding: 1rem !important;
+  font-weight: bold !important;
+}
+
+.buttonCriarTreinamento:hover {
+  color: #002A4B !important;
+  background-color: #ffffff !important;
+  border: 2px solid #002A4B !important;
+}
+
+.modalFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+}
+
+@media screen and (max-width: 530px) {
+  .mb2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .totalTreinamentos {
+    font-size: 2rem;
+  }
+  .card {
+    width: 80vw !important;
+  }
+}
+/*# sourceMappingURL=styles.module.css.map */

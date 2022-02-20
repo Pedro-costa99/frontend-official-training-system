@@ -1,0 +1,46 @@
+.modalTop{
+    font-size: 1.1rem;
+}
+
+.formLabel{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+//input bootstrap
+.formControlAdd{
+    // font-size: 2.3rem;
+    color: #002A4B !important;
+    // font-weight: bold;
+    height: 35px;
+    font-size: 20px !important;
+    
+}
+
+.msgSucesso{
+    /* font-size: 2.4rem; */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #008000;
+    font-size: 2rem;
+}
+
+.msgErroCreateTrein{
+    /* font-size: 2.4rem; */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: red;
+    font-size: 2rem;
+}
+
+
+.formControlAdd::placeholder{
+  color: #DCDCDC !important;
+  font-weight: bold;
+  font-size: 1.5rem; 
+
+}

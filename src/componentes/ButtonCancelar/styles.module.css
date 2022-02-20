@@ -1,0 +1,14 @@
+.buttonCancelar {
+  font-size: 1.8rem !important;
+  background-color: gray !important;
+  height: 40px;
+  border: 2px solid gray !important;
+  font-weight: bold;
+}
+
+.buttonCancelar:hover {
+  color: gray !important;
+  background-color: #ffffff !important;
+  border: 2px solid gray !important;
+}
+/*# sourceMappingURL=styles.module.css.map */
