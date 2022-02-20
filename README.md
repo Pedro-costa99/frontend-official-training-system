@@ -5,7 +5,7 @@
   
   
 # 🌱 API consumida:
-- https://backend-sistema-treinamentos.herokuapp.com/api/
+- https://backend-official-training-syst.herokuapp.com/api/
 
 
 # 🌱 Algumas Tecnologias utilizadas
