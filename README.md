@@ -29,7 +29,7 @@
 - **Pedro Canabrava**
 
 ## ✔️ Deploy no Heroku
-- **https://treinamentos-frontend-pedro.herokuapp.com/**
+- **https://frontend-official-training-sys.herokuapp.com/**
 
 # Sistema de Treinamento mobile
 ![Sistema de Treinamento na tela de um celular](https://github.com/Pedro-costa99/frontend-official-training-system-/blob/main/src/assets/images/screencapture-mobile.png)
