@@ -20,7 +20,8 @@
 - Express
 - Sequelize, MySQL, ClearDB MySQL (HEROKU)
 
-# 🌱 Limitações
+# 🌱 Limitações-
+- Os formulários ainda não têm validações completas.  Isso Pode ser implementado com o Yup.
 - Falta implementar telas de "Inscrever-se", "Esqueceu sua senha", "Configurações"
 - O Filtro do Sistema é básico (ainda considera acentuação)
 - A lista de treinamento de um funcionário precisa de uma Table
