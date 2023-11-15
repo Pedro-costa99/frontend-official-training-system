@@ -127,7 +127,7 @@ const ModalAgendamento = ({setTotalItemsFuncionarios, listaFuncionario, setLista
     const getAllFuncionario = async () => {
         const response = await getFuncionarios();
         setListaFuncionario(response.data.funcionarios.reverse());
-        setTotalItemsFuncionarios(response.data.funcionarios.length -1);
+        setTotalItemsFuncionarios(response.data.funcionarios.length);
     }
     return (
         

@@ -114,7 +114,7 @@ const AllTraining = (props) => {
                 setListaFuncionario(res.data.funcionarios.reverse());
                 // console.log("listaFuncionario", res.data.funcionarios.reverse());
 
-                setTotalItemsFuncionarios(res.data.funcionarios.length - 1);
+                setTotalItemsFuncionarios(res.data.funcionarios.length);
                 setLoadingDois(false);
             })
                 .catch((error) => {
@@ -167,7 +167,7 @@ const AllTraining = (props) => {
     const getAllFuncionario = async () => {
         const response = await getFuncionarios();
         setListaFuncionario(response.data.funcionarios.reverse());
-        setTotalItemsFuncionarios(response.data.funcionarios.length - 1);
+        setTotalItemsFuncionarios(response.data.funcionarios.length);
     }
 
     const onValueChange = (e) => {
@@ -402,7 +402,6 @@ const AllTraining = (props) => {
             <main className={styles.main}>
                 <div className={styles.mainTop}>
                     <div className='row' id={styles.mb2}>
-                        {console.log(totalItemsFuncionarios)}
                         <div className='col-12 col-sm-6' id={styles.totalTreinamentos} style={{paddingBottom: '20px', textAlign: 'center'}}>
                             Total de funcionários: {totalItemsFuncionarios}
                         </div>

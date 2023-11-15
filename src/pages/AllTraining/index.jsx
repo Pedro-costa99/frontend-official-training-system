@@ -125,7 +125,7 @@ const AllTraining = (props) => {
                 setListaTreinamento(res.data.treinamentos.reverse());
                 console.log("res.data.treinamentos.", res.data.treinamentos.reverse());
 
-                setTotalItems(res.data.treinamentos.length - 1);
+                setTotalItems(res.data.treinamentos.length);
                 setLoadingDois(false);
             })
                 .catch((error) => {
@@ -179,7 +179,7 @@ const AllTraining = (props) => {
     const getAllTreinamento = async () => {
         const response = await getTreinamentos();
         setListaTreinamento(response.data.treinamentos.reverse());
-        setTotalItems(response.data.treinamentos.length - 1);
+        setTotalItems(response.data.treinamentos.length);
     }
 
     const onValueChange = (e) => {
