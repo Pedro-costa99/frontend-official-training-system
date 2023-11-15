@@ -141,6 +141,7 @@ const ModalAgendamento = ({setTotalItemsFuncionarios, listaFuncionario, setLista
                         <Form.Label className={styles.formLabel}>Treinamento</Form.Label>
                         <br/>
                         <select value={treinamentoId} onChange={e => setTreinamentoId(e.target.value)} className={styles.formSelect}>
+                        <option value="">Escolha um treinamento</option>
                             {listaTeste.map((item) => (
                                 <option className={styles.optionTeste} key={item.id} value={item.id}> {item.nome}</option>
                             ))}
@@ -150,8 +151,8 @@ const ModalAgendamento = ({setTotalItemsFuncionarios, listaFuncionario, setLista
                         <Form.Label className={styles.formLabel}>Funcionario</Form.Label>
                         <br/>
                         <select value={funcionarioId} onChange={e => setFuncionarioId(e.target.value)} className={styles.formSelect}>
+                        <option value="">Escolha um funcionário</option>
                             {
-                            
                             listaFuncionario.map((treina) => (
                                 <option className={styles.optionTeste} key={treina.id} value={treina.id}> {treina.nome}</option>
                             ))}
@@ -161,7 +162,7 @@ const ModalAgendamento = ({setTotalItemsFuncionarios, listaFuncionario, setLista
             </Modal.Body>
             <Modal.Footer className={styles.modalFooter}>
                 <ButtonCancelar handleCloseTres={handleClose} />
-                <ButtonSalvar addItemDetails={addItemDetails} />
+                <ButtonSalvar addItemDetails={addItemDetails} isDisabled={funcionarioId === 0 || treinamentoId === 0}/>
             </Modal.Footer>
             {loading === true ? <div className={styles.msgSucesso}>Agendamento realizado com sucesso!</div> : null}
             {statusCreateAgend.status === 400 ? <div className={styles.msgErroAgend}>Erro! Já há um treinamento para este 

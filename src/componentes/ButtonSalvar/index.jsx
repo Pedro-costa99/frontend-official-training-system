@@ -3,9 +3,9 @@ import { Button } from 'react-bootstrap';
 import styles from './styles.module.css'
 
 
-const ButtonSalvar = ({ addItemDetails }) => {
+const ButtonSalvar = ({ addItemDetails, isDisabled  }) => {
     return (
-        <Button onClick={() => addItemDetails()} variant="primary" className={styles.buttonSalvar}>
+        <Button onClick={() => addItemDetails()} variant="primary" className={styles.buttonSalvar} disabled={isDisabled}>
             Salvar
         </Button>
     )
