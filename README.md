@@ -8,7 +8,7 @@
 - Senha: 12345678
   
 # 🌱 API consumida:
-- https://backend-official-training-syst.herokuapp.com/api/
+- https://backend-official-training-syst-b23685a27f2f.herokuapp.com/api/
 
 
 # 🌱 Algumas Tecnologias utilizadas
@@ -33,7 +33,7 @@
 - **Pedro Canabrava**
 
 ## ✔️ Deploy no Heroku
-- **https://frontend-official-training-sys.herokuapp.com/**
+- **https://frontend-official-training-sys-b2bc9aa79c23.herokuapp.com/**
 
 # Sistema de Treinamento mobile
 ![Sistema de Treinamento na tela de um celular](https://github.com/Pedro-costa99/frontend-official-training-system-/blob/main/src/assets/images/screencapture-mobile.png)
