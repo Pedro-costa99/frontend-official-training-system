@@ -1,43 +1,33 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: 'https://backend-official-training-syst-b23685a27f2f.herokuapp.com/api/'
-})
+  baseURL:
+    "https://backend-official-training-syst-b23685a27f2f.herokuapp.com/api/",
+});
 
-//Login
-export const createSession = async (email, password) =>{
-    return await api.post("/login", {email, password});
-}
+// Login
+export const createSession = async (email, password) =>
+  api.post("/login", { email, password });
 
-//Usuario
-export const getUsuario = async () =>{
-    return await api.get("/");
-}
+// Usuario
+export const getUsuario = async () => api.get("/");
 
-//Funcionário
-export const getFuncionarios = async () =>{
-    return await api.get("/funcionarios");
-}
+// Funcionário
+export const getFuncionarios = async () => api.get("/funcionarios");
 
-export const getFuncionarioById = async (id) =>{
-    return await api.get(`/funcionario/${id}`);
-}
+export const getFuncionarioById = async (id) => api.get(`/funcionario/${id}`);
 
-//Treinamentos
-export const getTreinamentos = async () =>{
-    return await api.get("/treinamentos");
-}
+// Treinamentos
+export const getTreinamentos = async () => api.get("/treinamentos");
 
-export const cadastrarTreinamento = async (user) =>{
-    return await api.post("/cadastrartreinamento", user);
-}
+export const cadastrarTreinamento = async (user) =>
+  api.post("/cadastrartreinamento", user);
 
-//Agendamento
-export const cadastrarAgendamento = async (funcionarioId, treinamentoId ) =>{
-    return await api.post("/cadastraragendamento", {funcionarioId, treinamentoId});
-}
+// Agendamento
+export const cadastrarAgendamento = async (funcionarioId, treinamentoId) =>
+  api.post("/cadastraragendamento", {
+    funcionarioId,
+    treinamentoId,
+  });
 
-export const agendamentoById = async (id) =>{
-    return await api.get(`/agendamento/${id}`);
-}
-
+export const agendamentoById = async (id) => api.get(`/agendamento/${id}`);
