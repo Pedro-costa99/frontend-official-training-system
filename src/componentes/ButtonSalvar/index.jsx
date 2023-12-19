@@ -2,13 +2,13 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import styles from "./styles.module.css";
 
-function ButtonSalvar({ addItemDetails, isDisabled }) {
+function ButtonSalvar({ isDisabled }) {
   return (
     <Button
-      onClick={() => addItemDetails()}
       variant="primary"
       className={styles.buttonSalvar}
       disabled={isDisabled}
+      type="submit"
     >
       Salvar
     </Button>
